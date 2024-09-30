@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myDoc - Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="min-height: 8vh;"> 
+        <div class="container-fluid">
+            <a class="navbar-brand" href="home.html"><img style="height: 50px;" src="img/Logo.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="service.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item bg-primary" style="border-radius: 5px;">
+                        <a class="nav-link text-light" href="login.html">Login / Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section id="contact" class="p-5">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1>Contact Us</h1>
+                    <form>
+                        <div class="row mb-3">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="First Name" required>
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Last Name" required>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col">
+                                <input type="email" class="form-control" placeholder="Email" required>
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="No. HP" required>
+                            </div>
+                        </div>
+                        <div class="form-group mb-3">
+                            <input type="text" class="form-control" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group mb-3">
+                            <textarea class="form-control" placeholder="Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mt-4">
+                        <div class="card-body">
+                            <h2 class="card-title text-primary">Get in Touch</h2>
+                            <button class="btn btn-outline-primary mb-2 w-100">081349427623</button>
+                            <button class="btn btn-outline-primary mb-2 w-100">jackvals123@gmail.com</button>
+                            <div class="p-1 border border-primary rounded-2 text-primary text-center">
+                                <p>Apotek MyDoc, Jl. P.Jomokerto No. 32 Rt 02/00, Kec. Ngawi, Kab. Ngawi, Jawa Timur</p>
+                            </div>
+                            <h4 class="mt-3">Check our social media</h4s>
+                            <div class="social-media mt-1">
+                                <button class="btn btn-primary btn-circle mt-2"><img src="img/Social1.png"></button>
+                                <button class="btn btn-primary btn-circle mt-2"><img src="img/Social2.png"></button>
+                                <button class="btn btn-primary btn-circle mt-2"><img src="img/Social3.png"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-3" style="min-height: 11vh;">
+        <p>&copy; 2024 myDoc. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>

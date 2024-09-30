@@ -1,0 +1,91 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Roboto:wght@500;700&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    color: #007bff; /* Primary color */
+}
+
+/* Section Styles */
+#about-us, #services, #history, #founder-quote {
+    padding: 80px 0;
+    background-color: #ffffff; /* White background for sections */
+    color: #333;
+}
+
+/* Card Styles */
+#testimonials .card, #doctors .card {
+    max-width: 350px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Carousel Image */
+.carousel-item img {
+    max-height: 370px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    #welcome .order-lg-1 {
+        order: 2 !important;
+    }
+    #welcome .order-lg-2 {
+        order: 1 !important;
+    }
+}
+
+/* Media Queries for larger screens */
+@media (min-width: 768px) {
+    #founder-quote {
+        min-height: 44vh;
+    }
+    #history {
+        min-height: 45vh;
+    }
+    #our-services {
+        min-height: 81vh;
+    }
+    #contact {
+        min-height: 81vh;
+    }
+}
+
+/* Color Scheme */
+.bg-primary {
+    background-color: #007bff; /* Blue - primary */
+    color: white;
+}
+
+.bg-secondary {
+    background-color: #6c757d; /* Gray - secondary */
+    color: white;
+}
+
+.bg-accent {
+    background-color: #ff5722; /* Accent color - orange */
+    color: white;
+}
+
+/* Text Classes */
+.text-primary {
+    color: #007bff;
+}
+
+.text-secondary {
+    color: #6c757d;
+}
+
+.text-accent {
+    color: #ff5722;
+}
